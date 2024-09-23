@@ -1,0 +1,124 @@
+body {
+    margin: auto;
+    padding: 0;
+    width: auto;
+    height: auto;
+    background-color: #163020;
+}
+
+.image-container {
+    margin: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.image-hover {
+    height: 50px; 
+    transition: opacity 0.5s ease; 
+}
+
+.link-text {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    opacity: 0; 
+    transition: transform 0.3s ease, opacity 0.2s ease; 
+    color: #D2E3C8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.image-container:hover .image-hover {
+    opacity: 0; 
+}
+
+.image-container:hover .link-text {
+    opacity: 1;
+    transform: translate(50%, -50%);
+}
+
+.head {
+    margin-left: 100px;
+    margin-right: 60px;
+    padding: auto;
+    color: #D2E3C8;
+    font-weight: bold;
+    font-size: 90px;
+    font-style: oblique;
+}
+
+hr {
+    width: 70%;
+}
+hr.bot{
+    width: 100%;
+    padding: auto;
+    
+}
+
+.pick {
+    margin: auto;
+    color: #D2E3C8;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    border: 9px solid#D2E3C8;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 60px;
+    padding: auto;
+}
+
+
+/******CONTENTS*/
+
+
+.content {
+   display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: auto;
+    margin: auto;
+}
+
+.image {
+    margin-right: 30px;
+}
+
+
+#flower1{
+    border-top:3px solid #D2E3C8;
+    border-bottom:3px solid #D2E3C8;
+    border-left: 3px inset #D2E3C8;
+    border-right:1px inset #D2E3C8;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 250px;
+    height: 400px;
+}
+#flower2{
+    border-top:3px solid #D2E3C8;
+    border-bottom:3px solid #D2E3C8;
+    border-left: 3px inset #D2E3C8;
+    border-right:1px inset #D2E3C8;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 250px;
+    height: 400px;
+}
+#flower3{
+    border-top:3px solid #D2E3C8;
+    border-bottom:3px solid #D2E3C8;
+    border-left: 3px inset #D2E3C8;
+    border-right:1px inset #D2E3C8;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 250px;
+    height: 400px;
+}
+
+div.category{
+    margin-top: 100px;
+    margin-bottom: -20px;
+    color: #D2E3C8;
+}
